@@ -1,0 +1,22 @@
+{
+  "name": "e2e-encrypted-server",
+  "version": "1.0.0",
+  "description": "e2e-encrypted-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "e2e-encrypted-server"
+  ],
+  "author": "Hiep Le",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "virgil-crypto": "^4.0.0",
+    "virgil-sdk": "^6.0.2"
+  }
+}
